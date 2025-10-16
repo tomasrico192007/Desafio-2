@@ -1,0 +1,18 @@
+Analisis de desarrolo y soluciones propuestas:
+El proyecto consiste en desarrollar un sistema de gestión y reproducción de musica, que maneje usuarios ya sean estandar o premium, artistas, álbumes y canciones. Se debe permitir crear listas de
+reproducción,administrar anuncios, reproducir música con distintas restricciones según el tipo de usuario y guardar toda la información en archivos con formato propio, sin usar librerías ps de STL.
+
+Para resolverlo, mi compañero y yo proponemos esta solucion, o este esquema de clases
+
+-Modelo musical: clases (Artista), (Album), (Cancion) y (Creditos), relacionadas y ordenadas por composicion.
+
+-Gestion de usuarios: clase base (Usuario) con subclases (usuarioestandar) y (usuariopremium), que definen comportamientos distintos (publicidad y retroceso de canciones).
+
+-Listas y favoritos: clases como (Playlist) y (Listafavoritos), con opcion ps de seguir listas de otros usuarios.
+
+-Reproducción y anuncios: Usaremos la clase (Reproductor) para controlar la reproducción y (Publicidad) para gestionar los mensajes publicitarios.
+
+-Persistencia y recursos: (StorageManager) para guardar y cargar datos, (Repositorio) como contenedor global y (Monitorderecursos) para medir o calcular el uso de memoria e iteraciones.
+
+
+Link del diagrama de clases:
