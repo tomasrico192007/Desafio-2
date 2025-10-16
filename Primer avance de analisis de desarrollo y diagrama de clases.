@@ -6,7 +6,7 @@ Para resolverlo, mi compañero y yo proponemos esta solucion, o este esquema de 
 
 -Modelo musical: clases (Artista), (Album), (Cancion) y (Creditos), relacionadas y ordenadas por composicion.
 
--Gestion de usuarios: clase base (Usuario) con subclases (usuarioestandar) y (usuariopremium), que definen comportamientos distintos (publicidad y retroceso de canciones).
+-Gestion de usuarios: clase base (Usuario) con subclases (usuarioestandar) y (usuariopremium), que definen comportamientos distintos como la publicidad y el retroceso de canciones.
 
 -Listas y favoritos: clases como (Playlist) y (Listafavoritos), con opcion ps de seguir listas de otros usuarios.
 
